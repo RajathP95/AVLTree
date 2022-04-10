@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.baeldung.avltree.AVLTreeTest" time="0.024" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.baeldung.avltree.AVLTreeTest" time="0.027" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter14148544082681119698.jar /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire 2022-04-10T15-36-19_884-jvmRun1 surefire13001613108072780236tmp surefire_012704145625052364955tmp"/>
+    <property name="sun.java.command" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter12903361195617475413.jar /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire 2022-04-10T15-58-02_979-jvmRun1 surefire11883029425625149594tmp surefire_08183982665024927584tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/test-classes:/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/classes:/Users/rajathgowda/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/rajathgowda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter14148544082681119698.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter12903361195617475413.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18+0"/>
@@ -56,15 +56,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="givenSampleTree_whenInsertLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
+  <testcase name="givenSampleTree_whenInsertLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.002"/>
   <testcase name="givenEmptyTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenEmptyTree_whenInsertCalled_heightShouldBeZero" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenFindExistingKeyCalled_shouldReturnMatchedNode" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenDeleteLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
   <testcase name="givenEmptyTree_whenHeightCalled_shouldReturnMinus1" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.004"/>
-  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="givenSampleTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
   <testcase name="exceptionWhenSame" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
 </testsuite>

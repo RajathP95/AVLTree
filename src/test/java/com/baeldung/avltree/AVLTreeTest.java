@@ -66,22 +66,16 @@ public class AVLTreeTest {
     @Test
     public void givenSampleTree_whenInsertLeftCalled_treeShouldBeAvl() {
     	AVLTree tree = new AVLTree();
-        int newKey = 10;
+        int newKey = 5;
         tree.insert(newKey);
-        int left = 5;
+        int left = 4;
         tree.insert(left);
-        int right = 15;
+        int right = 1;
         tree.insert(right);
-        int leftNew = 3;
+        int leftNew = 7;
         tree.insert(leftNew);
-        int leftRightNew = 4;
+        int leftRightNew = 9;
         tree.insert(leftRightNew);
-        int rightleftNew = 13;
-        tree.insert(rightleftNew);
-        int rigthRightNew = 16;
-        tree.insert(rigthRightNew);
-        int rigthRightRightNew = 17;
-        tree.insert(rigthRightRightNew);
         Assert.assertTrue(isAVL(tree));
     }
     
