@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter5663265976603999525.jar /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire 2022-04-09T23-43-14_858-jvmRun1 surefire14814887510136874578tmp surefire_02121986044545639650tmp"/>
+    <property name="sun.java.command" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter2948032987647379457.jar /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire 2022-04-09T23-53-29_666-jvmRun1 surefire1665240337456787863tmp surefire_06726461096121664077tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/test-classes:/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/classes:/Users/rajathgowda/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/rajathgowda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter5663265976603999525.jar"/>
+    <property name="surefire.real.class.path" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/surefire/surefirebooter2948032987647379457.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18+0"/>
@@ -62,6 +62,6 @@
   <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenEmptyTree_whenHeightCalled_shouldReturnMinus1" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
   <testcase name="givenSampleTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
 </testsuite>
