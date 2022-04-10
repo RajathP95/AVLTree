@@ -47,10 +47,10 @@
 <span class="fc" id="L47">            return new Node(key);</span>
 <span class="fc bfc" id="L48" title="All 2 branches covered.">        } else if (node.key &gt; key) {</span>
 <span class="fc" id="L49">            node.left = insert(node.left, key);</span>
-<span class="pc bpc" id="L50" title="1 of 2 branches missed.">        } else if (node.key &lt; key) {</span>
+<span class="fc bfc" id="L50" title="All 2 branches covered.">        } else if (node.key &lt; key) {</span>
 <span class="fc" id="L51">            node.right = insert(node.right, key);</span>
         } else {
-<span class="nc" id="L53">            throw new RuntimeException(&quot;duplicate Key!&quot;);</span>
+<span class="fc" id="L53">            throw new RuntimeException(&quot;duplicate Key!&quot;);</span>
         }
 <span class="fc" id="L55">        return rebalance(node);</span>
     }
