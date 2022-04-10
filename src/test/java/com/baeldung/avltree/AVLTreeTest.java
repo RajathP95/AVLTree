@@ -80,6 +80,8 @@ public class AVLTreeTest {
         tree.insert(rightleftNew);
         int rigthRightNew = 16;
         tree.insert(rigthRightNew);
+        int rigthRightRightNew = 17;
+        tree.insert(rigthRightRightNew);
         Assert.assertTrue(isAVL(tree));
     }
     
@@ -105,6 +107,15 @@ public class AVLTreeTest {
         int delRight = 15;
         tree.delete(delRight);
         Assert.assertTrue(isAVL(tree));
+    }
+    
+    @Test(expected = RuntimeException.class)
+    public void exceptionWhenSame() {
+    		AVLTree tree = new AVLTree();
+	    	int newKey = 11;
+	        tree.insert(newKey);
+	        int sameKey = 11;
+	        tree.insert(sameKey);
     }
 
     private boolean isAVL(AVLTree tree) {
