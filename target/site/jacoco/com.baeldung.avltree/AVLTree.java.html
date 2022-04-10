@@ -96,25 +96,25 @@
 <span class="nc" id="L96">                z.right = rotateRight(z.right);</span>
 <span class="nc" id="L97">                z = rotateLeft(z);</span>
             }
-<span class="pc bpc" id="L99" title="1 of 2 branches missed.">        } else if (balance &lt; -1) {</span>
-<span class="nc bnc" id="L100" title="All 2 branches missed.">            if (height(z.left.left) &gt; height(z.left.right)) {</span>
+<span class="fc bfc" id="L99" title="All 2 branches covered.">        } else if (balance &lt; -1) {</span>
+<span class="pc bpc" id="L100" title="1 of 2 branches missed.">            if (height(z.left.left) &gt; height(z.left.right)) {</span>
 <span class="nc" id="L101">                z = rotateRight(z);</span>
             } else {
-<span class="nc" id="L103">                z.left = rotateLeft(z.left);</span>
-<span class="nc" id="L104">                z = rotateRight(z);</span>
+<span class="fc" id="L103">                z.left = rotateLeft(z.left);</span>
+<span class="fc" id="L104">                z = rotateRight(z);</span>
             }
         }
 <span class="fc" id="L107">        return z;</span>
     }
 
     private Node rotateRight(Node y) {
-<span class="nc" id="L111">        Node x = y.left;</span>
-<span class="nc" id="L112">        Node z = x.right;</span>
-<span class="nc" id="L113">        x.right = y;</span>
-<span class="nc" id="L114">        y.left = z;</span>
-<span class="nc" id="L115">        updateHeight(y);</span>
-<span class="nc" id="L116">        updateHeight(x);</span>
-<span class="nc" id="L117">        return x;</span>
+<span class="fc" id="L111">        Node x = y.left;</span>
+<span class="fc" id="L112">        Node z = x.right;</span>
+<span class="fc" id="L113">        x.right = y;</span>
+<span class="fc" id="L114">        y.left = z;</span>
+<span class="fc" id="L115">        updateHeight(y);</span>
+<span class="fc" id="L116">        updateHeight(x);</span>
+<span class="fc" id="L117">        return x;</span>
     }
 
     private Node rotateLeft(Node y) {

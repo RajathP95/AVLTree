@@ -72,6 +72,14 @@ public class AVLTreeTest {
         tree.insert(left);
         int right = 15;
         tree.insert(right);
+        int leftNew = 3;
+        tree.insert(leftNew);
+        int leftRightNew = 4;
+        tree.insert(leftRightNew);
+        int rightleftNew = 13;
+        tree.insert(rightleftNew);
+        int rigthRightNew = 16;
+        tree.insert(rigthRightNew);
         Assert.assertTrue(isAVL(tree));
     }
     
@@ -82,11 +90,19 @@ public class AVLTreeTest {
         tree.insert(newKey);
         int left = 5;
         tree.insert(left);
-        int right = 13;
+        int right = 15;
         tree.insert(right);
+        int leftNew = 3;
+        tree.insert(leftNew);
+        int leftRightNew = 4;
+        tree.insert(leftRightNew);
+        int rightleftNew = 13;
+        tree.insert(rightleftNew);
+        int rigthRightNew = 16;
+        tree.insert(rigthRightNew);
         int delLeft = 5;
         tree.delete(delLeft);
-        int delRight = 13;
+        int delRight = 15;
         tree.delete(delRight);
         Assert.assertTrue(isAVL(tree));
     }
