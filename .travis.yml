@@ -1,6 +1,8 @@
 language: java
+sudo: false # faster builds
 
-script: "mvn corbertura:corbertura"
+jdk:
+  - oraclejdk11
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
