@@ -112,28 +112,18 @@ public class AVLTreeTest {
 	        tree.insert(sameKey);
     }
     
-    public void test05()  throws Throwable  {
-        AVLTree aVLTree0 = new AVLTree();
-        aVLTree0.delete(331);
-        aVLTree0.delete(331);
-        aVLTree0.delete(0);
-        aVLTree0.getBalance((AVLTree.Node) null);
-        aVLTree0.delete(0);
-        aVLTree0.getBalance((AVLTree.Node) null);
-        aVLTree0.delete(0);
+    @Test
+    public void testright() throws Throwable {
+        com.baeldung.avltree.AVLTree aVLTree0 = new com.baeldung.avltree.AVLTree();
+        com.baeldung.avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
+        com.baeldung.avltree.AVLTree.Node node3 = aVLTree0.getRoot();
+        aVLTree0.delete(100);
+        int int6 = aVLTree0.height();
+        com.baeldung.avltree.AVLTree.Node node8 = aVLTree0.find((int) (short) -1);
         aVLTree0.insert(0);
-        aVLTree0.getRoot();
-        aVLTree0.getBalance((AVLTree.Node) null);
-        aVLTree0.delete((-2713));
-        AVLTree.Node aVLTree_Node0 = aVLTree0.find(0);
-        aVLTree0.delete((-1));
-        aVLTree_Node0.key = 331;
-        aVLTree0.delete((-2713));
-        aVLTree0.delete(0);
-        aVLTree0.getRoot();
-        aVLTree0.insert(0);
-        aVLTree0.insert((-1));
-        aVLTree0.getBalance(aVLTree_Node0);
+        aVLTree0.insert((int) (byte) -1);
+        // during test generation this statement threw an exception of type java.lang.NullPointerException in error
+        aVLTree0.delete((int) (byte) 0);
     }
 
     private boolean isAVL(AVLTree tree) {
