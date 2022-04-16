@@ -115,6 +115,7 @@
    			<version>2.17</version>
    			<configuration>
           <argLine>${surefireArgLine}</argLine>
+	  <extraArgs> -Duse_separate_classloader=false </extraArgs>
         </configuration>
 		</plugin>
 	      <plugin>
