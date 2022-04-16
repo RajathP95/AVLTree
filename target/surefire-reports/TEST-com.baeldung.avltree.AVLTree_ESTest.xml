@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.baeldung.avltree.AVLTreeTest" time="0.003" tests="11" errors="0" skipped="0" failures="0">
+<testsuite name="com.baeldung.avltree.AVLTree_ESTest" time="0.119" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib"/>
@@ -65,15 +65,25 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="givenSampleTree_whenInsertLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
-  <testcase name="givenEmptyTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
-  <testcase name="givenEmptyTree_whenInsertCalled_heightShouldBeZero" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenFindExistingKeyCalled_shouldReturnMatchedNode" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenDeleteLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenEmptyTree_whenHeightCalled_shouldReturnMinus1" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="exceptionWhenSame" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
-  <testcase name="givenSampleTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="test01" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.026"/>
+  <testcase name="test12" classname="com.baeldung.avltree.AVLTree_ESTest" time="0"/>
+  <testcase name="test00" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.003"/>
+  <testcase name="test11" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
+  <testcase name="test10" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
+  <testcase name="test20" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.006"/>
+  <testcase name="test05" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.007"/>
+  <testcase name="test16" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.003"/>
+  <testcase name="test04" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.002"/>
+  <testcase name="test15" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
+  <testcase name="test03" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.002"/>
+  <testcase name="test14" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.005"/>
+  <testcase name="test02" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.005"/>
+  <testcase name="test13" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
+  <testcase name="test09" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.007"/>
+  <testcase name="test08" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.015"/>
+  <testcase name="test19" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
+  <testcase name="test07" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.002"/>
+  <testcase name="test18" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.002"/>
+  <testcase name="test06" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.01"/>
+  <testcase name="test17" classname="com.baeldung.avltree.AVLTree_ESTest" time="0.004"/>
 </testsuite>

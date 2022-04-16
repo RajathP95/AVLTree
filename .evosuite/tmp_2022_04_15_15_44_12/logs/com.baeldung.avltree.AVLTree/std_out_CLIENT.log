@@ -1,0 +1,79 @@
+* Starting client
+* Connecting to master process on port 3183
+* Analyzing classpath: 
+  - /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/test-classes
+  - /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/classes
+  - /Users/rajathgowda/.m2/repository/junit/junit/4.11/junit-4.11.jar
+  - /Users/rajathgowda/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.baeldung.avltree.AVLTree
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Loaded 23 tests from /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/evosuite-seeds/com.baeldung.avltree.AVLTree.seed
+* Total number of test goals: 
+  - Line 73
+  - Branch 50
+  - Exception 0
+  - MutationFactory 178
+  - Output 10
+  - Method 8
+  - MethodNoException 8
+  - CBranchFitnessFactory 50
+* Using seed 1650055454855
+* Starting evolution
+* Search finished after 33s and 9 generations, 6618 statements, best individual has fitness: 24.142857142857142
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 15:45:02.344 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 73
+* Number of covered goals: 73
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 50
+* Number of covered goals: 50
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 178
+* Number of covered goals: 174
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 56%
+* Total number of goals: 50
+* Number of covered goals: 28
+* Generated 21 tests with total length 345
+* Resulting test suite's coverage: 94% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 15:45:07.101 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9084% of time used, but only 1/21 tests minimized), falling back to using all assertions
+[MASTER] 15:45:07.820 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 43%
+* Compiling and checking tests
+[MASTER] 15:45:10.076 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 5s, but only 4s are left
+* Writing JUnit test case 'AVLTree_ESTest' to /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_15_44_12/tests
+* Done!
+

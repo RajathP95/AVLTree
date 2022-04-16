@@ -63,7 +63,7 @@ public class AVLTree {
         } else if (node.key < key) {
             node.right = delete(node.right, key);
         } else {
-            if (node.left == null) {
+            if (node.left == null || node.right == null) {
                 node = (node.left == null) ? node.right : node.left;
             } else {
                 Node mostLeftChild = mostLeftChild(node.right);
