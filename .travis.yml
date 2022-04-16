@@ -3,5 +3,5 @@ jdk: openjdk8
 
 after_success:
    - mvn clean install jacoco:prepare-agent jacoco:report
-   - mvn -DmemoryInMB=2000 -Dcores=2 evosuite:generate evosuite:export test
+   - mvn -DmemoryInMB=2000 -Dcores=2 evosuite:generate evosuite:export org.apache.maven.plugins:maven-surefire-2.17:test
    - bash <(curl -s https://codecov.io/bash)
