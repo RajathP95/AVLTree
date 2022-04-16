@@ -1,4 +1,4 @@
 language: java
 
 after_success:
-  - mvn evosuite:generate evosuite:export test jacoco:report org.eluder.coveralls:coveralls-maven-plugin:report clean 
+  - mvn -DmemoryInMB=2000 -Dcores=2 evosuite:generate evosuite:export test jacoco:report org.eluder.coveralls:coveralls-maven-plugin:report clean 
