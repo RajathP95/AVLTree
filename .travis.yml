@@ -1,7 +1,7 @@
 language: java
 jdk: openjdk8
 
-scripts:
+script:
    - mvn -DmemoryInMB=2000 -Dcores=2 evosuite:generate evosuite:export -Duse_separate_classloader=false org.apache.maven.plugins:maven-surefire-plugin:2.17:test jacoco:prepare-agent install jacoco:report
 after_success:
    - bash <(curl -s https://codecov.io/bash)
