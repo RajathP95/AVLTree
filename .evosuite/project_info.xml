@@ -118,5 +118,16 @@
                 </coverage>
             </suite>
         </generation>
+        <generation>
+            <id>2</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>60</timeBudgetInSeconds>
+            <memoryInMB>1000</memoryInMB>
+            <std_err_CLIENT>/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_21_41_40/logs/com.baeldung.avltree.AVLTree/std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_21_41_40/logs/com.baeldung.avltree.AVLTree/std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_21_41_40/logs/com.baeldung.avltree.AVLTree/std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_21_41_40/logs/com.baeldung.avltree.AVLTree/std_out_MASTER.log</std_out_MASTER>
+        </generation>
     </cut>
 </Project>

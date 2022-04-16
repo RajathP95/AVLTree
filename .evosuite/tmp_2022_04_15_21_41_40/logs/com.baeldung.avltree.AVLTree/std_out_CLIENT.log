@@ -1,5 +1,5 @@
 * Starting client
-* Connecting to master process on port 3183
+* Connecting to master process on port 20622
 * Analyzing classpath: 
   - /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/test-classes
   - /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/target/classes
@@ -17,39 +17,40 @@
   - No-Exception Top-Level Method Coverage
   - Context Branch Coverage
 * Setting up search algorithm for whole suite generation
-* Loaded 23 tests from /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/evosuite-seeds/com.baeldung.avltree.AVLTree.seed
+* Loaded 21 tests from /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/evosuite-seeds/com.baeldung.avltree.AVLTree.seed
 * Total number of test goals: 
   - Line 73
-  - Branch 50
+  - Branch 48
   - Exception 0
-  - MutationFactory 178
+  - MutationFactory 177
   - Output 10
   - Method 8
   - MethodNoException 8
-  - CBranchFitnessFactory 50
-* Using seed 1650055454855
+  - CBranchFitnessFactory 48
+* Using seed 1650076902671
 * Starting evolution
-* Search finished after 33s and 9 generations, 6618 statements, best individual has fitness: 24.142857142857142
+* Search finished after 31s and 39 generations, 17663 statements, best individual has fitness: 24.166666666666668
 * Writing sequences to pool
 * Minimizing test suite
-[MASTER] 15:45:02.344 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 21:42:24.139 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 21:42:24.149 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 1 seconds more than allowed.
 * Going to analyze the coverage criteria
 * Coverage analysis for criterion LINE
 * Coverage of criterion LINE: 100%
 * Total number of goals: 73
 * Number of covered goals: 73
 * Coverage analysis for criterion BRANCH
-* Coverage of criterion BRANCH: 100%
-* Total number of goals: 50
-* Number of covered goals: 50
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 48
+* Number of covered goals: 47
 * Coverage analysis for criterion EXCEPTION
 * Coverage of criterion EXCEPTION: 100%
-* Total number of goals: 6
-* Number of covered goals: 6
+* Total number of goals: 5
+* Number of covered goals: 5
 * Coverage analysis for criterion WEAKMUTATION
 * Coverage of criterion WEAKMUTATION: 98%
-* Total number of goals: 178
-* Number of covered goals: 174
+* Total number of goals: 177
+* Number of covered goals: 173
 * Coverage analysis for criterion OUTPUT
 * Coverage of criterion OUTPUT: 100%
 * Total number of goals: 10
@@ -63,17 +64,15 @@
 * Total number of goals: 8
 * Number of covered goals: 8
 * Coverage analysis for criterion CBRANCH
-* Coverage of criterion CBRANCH: 56%
-* Total number of goals: 50
+* Coverage of criterion CBRANCH: 58%
+* Total number of goals: 48
 * Number of covered goals: 28
-* Generated 21 tests with total length 345
+* Generated 28 tests with total length 296
 * Resulting test suite's coverage: 94% (average coverage for all fitness functions)
 * Generating assertions
-[MASTER] 15:45:07.101 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Assertion minimization is taking too long (0.9084% of time used, but only 1/21 tests minimized), falling back to using all assertions
-[MASTER] 15:45:07.820 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
-* Resulting test suite's mutation score: 43%
+[MASTER] 21:42:40.694 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 5s, but only 2s are left
+* Skipping assertion generation because not enough time is left
 * Compiling and checking tests
-[MASTER] 15:45:10.076 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 5s, but only 4s are left
-* Writing JUnit test case 'AVLTree_ESTest' to /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_15_44_12/tests
-* Done!
-
+[MASTER] 21:42:40.748 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 5s, but only 2s are left
+[MASTER] 21:42:40.750 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 5s, but only 2s are left
+* Writing JUnit test case 'AVLTree_ESTest' to /Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree/.evosuite/tmp_2022_04_15_21_41_40/tests

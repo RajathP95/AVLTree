@@ -5,6 +5,7 @@
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.301-b09"/>
     <property name="gopherProxySet" value="false"/>
+    <property name="cores" value="2"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="/Users/rajathgowda/Documents/PAT_Assignment/Assignment-4/AVLTree"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -38,6 +39,7 @@
     <property name="user.home" value="/Users/rajathgowda"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="memoryInMB" value="2000"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="rajathgowda"/>
@@ -45,7 +47,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -DmemoryInMB=2000 -Dcores=2 evosuite:generate evosuite:export test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -67,11 +69,11 @@
   <testcase name="givenEmptyTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenEmptyTree_whenInsertCalled_heightShouldBeZero" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenFindExistingKeyCalled_shouldReturnMatchedNode" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenDeleteLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="givenSampleTree_whenDeleteLeftCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
+  <testcase name="givenSampleTree_whenFindNotExistingKeyCalled_shouldReturnNull" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
   <testcase name="givenEmptyTree_whenHeightCalled_shouldReturnMinus1" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
-  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
-  <testcase name="exceptionWhenSame" classname="com.baeldung.avltree.AVLTreeTest" time="0.001"/>
+  <testcase name="givenEmptyTree_whenDeleteCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
+  <testcase name="exceptionWhenSame" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
   <testcase name="givenSampleTree_whenInsertCalled_treeShouldBeAvl" classname="com.baeldung.avltree.AVLTreeTest" time="0"/>
 </testsuite>
