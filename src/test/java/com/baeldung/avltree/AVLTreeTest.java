@@ -111,6 +111,30 @@ public class AVLTreeTest {
 	        int sameKey = 11;
 	        tree.insert(sameKey);
     }
+    
+    public void test05()  throws Throwable  {
+        AVLTree aVLTree0 = new AVLTree();
+        aVLTree0.delete(331);
+        aVLTree0.delete(331);
+        aVLTree0.delete(0);
+        aVLTree0.getBalance((AVLTree.Node) null);
+        aVLTree0.delete(0);
+        aVLTree0.getBalance((AVLTree.Node) null);
+        aVLTree0.delete(0);
+        aVLTree0.insert(0);
+        aVLTree0.getRoot();
+        aVLTree0.getBalance((AVLTree.Node) null);
+        aVLTree0.delete((-2713));
+        AVLTree.Node aVLTree_Node0 = aVLTree0.find(0);
+        aVLTree0.delete((-1));
+        aVLTree_Node0.key = 331;
+        aVLTree0.delete((-2713));
+        aVLTree0.delete(0);
+        aVLTree0.getRoot();
+        aVLTree0.insert(0);
+        aVLTree0.insert((-1));
+        aVLTree0.getBalance(aVLTree_Node0);
+    }
 
     private boolean isAVL(AVLTree tree) {
        return isAVL(tree, tree.getRoot());
