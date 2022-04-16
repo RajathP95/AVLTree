@@ -1,4 +1,4 @@
 language: java
 
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - mvn evosuite:generate evosuite:export test jacoco:report org.eluder.coveralls:coveralls-maven-plugin:report clean 

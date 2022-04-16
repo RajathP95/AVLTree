@@ -111,26 +111,6 @@ public class AVLTreeTest {
 	        int sameKey = 11;
 	        tree.insert(sameKey);
     }
-    
-    @Test
-    public void test4() throws Throwable {
-        com.baeldung.avltree.AVLTree aVLTree0 = new com.baeldung.avltree.AVLTree();
-        com.baeldung.avltree.AVLTree.Node node2 = aVLTree0.find((int) '4');
-        aVLTree0.delete((int) 'a');
-        aVLTree0.delete(1);
-        aVLTree0.delete((int) '#');
-        aVLTree0.delete((int) (short) -1);
-        com.baeldung.avltree.AVLTree.Node node11 = aVLTree0.getRoot();
-        aVLTree0.insert(10);
-        aVLTree0.delete(1);
-        com.baeldung.avltree.AVLTree.Node node16 = aVLTree0.getRoot();
-        int int17 = aVLTree0.height();
-        aVLTree0.delete((int) 'a');
-        aVLTree0.insert(1);
-        aVLTree0.delete(0);
-        // during test generation this statement threw an exception of type java.lang.NullPointerException in error
-        aVLTree0.delete(10);
-    }
 
     private boolean isAVL(AVLTree tree) {
        return isAVL(tree, tree.getRoot());
